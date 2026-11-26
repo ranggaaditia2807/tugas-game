@@ -10,3 +10,15 @@ Audio siap. Bunyi tes dikirim.
 Audio SDL menyala. Driver: wasapi
 Jalur suara dibuka: musik=True poin=True tabrak=True
 Audio siap. Bunyi tes dikirim.
+--- SoundInit ---
+Audio SDL menyala. Driver: wasapi
+Jalur suara dibuka: musik=True poin=True tabrak=True
+Audio siap. Bunyi tes dikirim.
+--- SoundInit ---
+Audio SDL menyala. Driver: wasapi
+Jalur suara dibuka: musik=True poin=True tabrak=True
+Audio siap. Bunyi tes dikirim.
+--- SoundInit ---
+Audio SDL menyala. Driver: wasapi
+Jalur suara dibuka: musik=True poin=True tabrak=True
+Audio siap. Bunyi tes dikirim.

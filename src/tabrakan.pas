@@ -9,7 +9,7 @@ unit tabrakan;
 interface
 
 uses
-  grafis, skor, suara, pemain, kendaraan, pejalan_kaki, rambu_lalu_lintas;
+  grafis, skor, suara, pemain, kendaraan, pejalan_kaki, lampu_lalu_lintas;
 
 var
   // PenandaGameOver = True bila nyawa habis; dibaca oleh main.pas untuk pindah ke layar Game Over.
@@ -98,20 +98,5 @@ begin
       end;
     Inc(i);
   end;
-
-  // Tabrakan dengan palang jalan pada rambu "dilarang masuk" (-50).
-  i := 0;
-  while i <= MAKS_RAMBU - 1 do
-  begin
-    if PersegiPalangRambu(i, rx, ry, rw, rh) then
-      if PersegiBertabrakan(px, py, pw, ph, rx, ry, rw, rh) then
-      begin
-        ProsesTabrakan(-50, 'Menabrak palang jalan!');
-        TampilkanInfo('Jalur ditutup. Pindah jalur sebelum mencapai palang.');
-        Exit;
-      end;
-    Inc(i);
-  end;
 end;
-
 end.
